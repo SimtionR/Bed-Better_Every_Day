@@ -9,6 +9,7 @@ namespace Bed.Core.Models.Gym
     public class WorkoutExercise
     {
         public int Id { get; set; }
+        public int ExerciseId { get; set; }
         public Exercise Exercise { get; set; }
         public int DesiredNumberOfReps { get; set; }
         public int SuccessfulReps { get; set; }
